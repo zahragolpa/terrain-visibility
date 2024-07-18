@@ -3,7 +3,7 @@ This repository contains an unofficial implementation of a paper titled "A faste
 
 ## Overview
 
-This code implements a solution to the 1.5D terrain visibility problem, which is, given an x-monotonic polygonial line in $R^2$ with n vertices and $m <= n$ viewpoints, find the visible parts of the terrain. The algorithm time complexity is $O(n + m log m)$ which is an improvement compared to previous work. You can find more information about the algorithm in the paper: [https://www.semanticscholar.org/paper/A-Faster-Algorithm-to-Compute-the-Visibility-Map-of-L%C3%B6ffler-Saumell/1405e04a59a1186b11ec897e92737ff42e8b8bbf](link).
+This code implements a solution to the 1.5D terrain visibility problem, which is, given an x-monotonic polygonial line in $R^2$ with n vertices and $m <= n$ viewpoints, find the visible parts of the terrain. The algorithm time complexity is $O(n + m log m)$ which is an improvement compared to previous work. You can find more information about the algorithm in the paper cited below.
 
 A Colab notebook is provided to run this unofficial implementation. Note that the "right-visibility" can be implemented similarly to the "left-visibility".
 
